@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="nomaa.css">
+
+</head>
+<body>
+
+<!--to the top button scroll-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>	
+<!--responsive navbar-->
+<div class="topnav" id="myTopnav">
+	<a href="#default" class="logo">
+		<img src="IMG-20230314-WA0002-removebg-preview.png" width="150">
+	</a>
+	<div class="header-right">	
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars bg-primary"></i>
+  </a>
+</div>
+</div>
+<div class="row">
+<div class="column11"></div>
+<div class="column11"></div>
+</div>
+
+<!--hero section-->
+<div class="row">
+  <div class="column">
+    <h2>Najoda
+     Foundation</h2>
+    <p class="hero-text">Together they shall walk again. 
+    Take the leap of faith and join us</p>
+    <a href="" class="actived1">Learn more</a>
+    <a href="" class="actived2">Donate Here</a>
+  </div>
+  <div class="column">
+  	
+    <!--video section on hero section-->
+    <video width="400" controls>
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+
+  </div>
+</div>
+
+<div class="container">
+	<h3>Four Equal Columns</h3>
+
+<div class="row">
+  <div class="column4">
+    <h4>Kneel Rplacement</h4>
+    <p>Some text..</p>
+  </div>
+  <div class="column4">
+    <h4>Consultancy</h4>
+    <p>Some text..</p>
+  </div>
+  <div class="column4">
+    <h4>Therapy</h4>
+    <p>Some text..</p>
+  </div>
+  <div class="column4">
+    <h4>Drugs and recommendations</h4>
+    <p>Some text..</p>
+  </div>
+</div>
+</div>
+
+
+<script>
+	//Responsive navbar
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script src="script.js"></script>
+</body>
+</html>
